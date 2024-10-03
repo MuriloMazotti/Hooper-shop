@@ -1,0 +1,53 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>HooperShop</h1>
+      
+    </header>
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+        <a href="RelatorioDeVendas.html">Relatorio de Vendas</a>
+        <a href="VENDA.html">Cadastro De Venda</a>
+    </nav>
+
+    <main>
+        <h2>Registrar Venda</h2>
+        <form id="sales-form">
+            <div>
+                <label for="produto">Produto:</label>
+                <input type="text" id="produto" name="produto" required>
+            </div>
+            <div>
+                <label for="preço">Preço:</label>
+                <input type="number" id="preço" name="preço" required>
+            </div>
+            <button type="button" id="adicionarProduto">Adicionar Produto</button>
+            
+
+            <div>
+                <label for="metodo">Forma de Pagamento:</label>
+                <select id="metodo" name="metodo" required>
+                    <option value="pix">Dinheiro</option>
+                    <option value="cartão">Cartão</option>
+                </select>
+            </div>
+
+            <button type="submit">Finalizar Venda</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lojinha</p>
+    </footer>
+    
+        
+    </body>
